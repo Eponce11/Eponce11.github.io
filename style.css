@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #072A40;
+    opacity: 90%;
+    z-index: 2;
+}
+
+
+.home {
+    height: 100vh;
+    background-color: #072A40;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+
+
+.home-name{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+
+.description {
+    background-color: #178CA4;
+    height: 50vh;
+    width: 100%;
+}
+
+.color-pallete {
+    background-color: #F9F7F0;
+    background-color: #18B7BE;
+    background-color: #178CA4;
+    background-color: #072A40;
+}
+
+
+.skills {
+    background-color:#242F9B ;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+.portfolio {
+    background-color: #178CA4;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.project-card {
+    width: 30%;
+    height: 60%;
+}
+
+
+.about-me {
+    background-color: green;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.dropdown-menu {
+    z-index: 5;
+}
+
+.all-projects {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.card {
+    min-width: 250px;
+}
+
+
+
+
+@media only screen and (max-width: 800px){
+    .all-projects {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 90%;
+        min-width: 400px;
+        margin-bottom: 30px;
+    }
+
+    .allSkills {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .skills-info {
+        margin: 0;
+    }
+
+}
+
