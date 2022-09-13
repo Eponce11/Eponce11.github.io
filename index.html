@@ -143,7 +143,7 @@
         </div>
 
 
-
+        <!-- 
 
         <div class="portfolio ps-3 pe-3 pb-4 text-light" id="projects">
 
@@ -202,7 +202,62 @@
             </div>
 
         </div>
+        -->
 
+        
+
+
+        <div class="portfolio ps-3 pe-3 pb-4" id="projects">
+            <h1 class="mt-1">Deployed Projects</h1>
+            <div class="all-projects">
+
+                <div class="project mb-4">
+                    <img src="./Project_Images/MyBudget_sc.PNG" alt="" onclick="openFullView(this.src)">
+                    <div class="d-flex  flex-column mt-4 ms-3">
+                        <h2>MyBudget</h2>
+                        <p class="mt-2 mb-4">| HTML | CSS | Bootstrap | Flask | MySQL |</p>
+                        <div class="d-flex">
+                            <form action="https://github.com/Eponce11/MyBudget" method="get" target="_blank">
+                                <button class="custom-button me-1">Github</button>
+                            </form>
+                            <form action="https://github.com/Eponce11/MyBudget" method="get" target="_blank">
+                                <button class="custom-button ms-1">Website</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project mb-4">
+                    <img src="./Project_Images/MyBudget_sc.PNG" alt="" onclick="openFullView(this.src)">
+                    <div class="d-flex  flex-column mt-4 ms-3">
+                        <h2>Pizza Place</h2>
+                        <p class="mt-2 mb-4">| Material UI | React.js | Express.js | MongoDB | Node.js |</p>
+                        <div>
+                            <button class="custom-button me-1" target="_blank">Github</button>
+                            <button class="custom-button ms-1">Website</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project">
+                    <img src="./Project_Images/Music-Social_sc.PNG" alt="" onclick="openFullView(this.src)">
+                    <div class="d-flex  flex-column mt-4 ms-3">
+                        <h2>Music-Social</h2>
+                        <p class="mt-2 mb-4">| HTML | BootStrap | .NET Core | MySQL |</p>
+                        <div>
+                            <button class="custom-button me-1">Github</button>
+                            <button class="custom-button ms-1">Website</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div id="full-image-view">
+            <img id="full-image" src="./Project_Images/MyBudget_sc.PNG">
+            <span onclick="closeFullView()">x</span>
+        </div>
 
 
 
@@ -227,5 +282,6 @@
 
 
     </div>
+    <script src="./script.js"></script>
 </body>
 </html>
